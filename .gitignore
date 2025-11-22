@@ -20,6 +20,8 @@ build/
 # Sistema
 .DS_Store
 Thumbs.db
+.gitattributes
+java-completo-udemy-course.iml
 
 # VS Code
 .vscode/
