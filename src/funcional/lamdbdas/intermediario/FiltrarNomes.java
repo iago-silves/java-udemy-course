@@ -1,9 +1,6 @@
 package funcional.lamdbdas.intermediario;
 
 import java.util.List;
-import java.util.function.BiFunction;
-import java.util.function.Function;
-import java.util.function.Predicate;
 
 public class FiltrarNomes {
     public static void main(String[] args) {
