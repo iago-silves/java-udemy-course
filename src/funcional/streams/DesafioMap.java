@@ -27,6 +27,13 @@ public class DesafioMap {
                 .map(n -> Integer.parseInt(toBinaryString(n), 2))
                 .toList();
 
+        //Correção:
+//        List<Integer> resultado = nums.stream()
+//                .map(Integer::toBinaryString)                 // 1. número → binário
+//                .map(bin -> new StringBuilder(bin).reverse()) // 2. reverter string
+//                .map(sb -> Integer.parseInt(sb.toString(), 2))// 3. binário → inteiro
+//                .toList();
+
 //        binarioString.forEach(n -> System.out.println(n.getClass().getSimpleName()));
 //        binarioInteiro.forEach(n -> System.out.println(n.getClass().getSimpleName()));
 
