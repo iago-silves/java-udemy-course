@@ -10,6 +10,11 @@ public class SomarItensLista {
         List<Integer> somar = Collections.singletonList(numeros.stream()
                 .reduce(0, (acumulador, numero) -> acumulador + numero));
 
-        System.out.println(somar);
+
+//        List<Integer> maximo = numeros.stream()
+//                        .max((n, i) -> n)
+//
+//
+//        System.out.println();
     }
 }
